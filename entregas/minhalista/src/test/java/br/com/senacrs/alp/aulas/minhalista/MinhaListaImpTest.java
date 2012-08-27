@@ -18,6 +18,11 @@ public class MinhaListaImpTest {
 
 	@Test
 	public void testMinhaListaImp() {
+		
+		MinhaListaImp<String> obj = null;
+		String arg = null;
+		
+		obj = new MinhaListaImp<String>(arg);
 		fail("Not yet implemented");
 	}
 
